@@ -1,0 +1,12 @@
+para criar um mock json server:
+-npm i --save json-server
+
+usar axios para fazer as requisiçoes:
+-npm i --save axios
+-
+
+configurar script personalizado para execula-lo:
+-no package.json adicionar o scripr server com "json-server -w db.json -p 3333 -d 1000"
+
+para rodar execurar:
+-npm run server
